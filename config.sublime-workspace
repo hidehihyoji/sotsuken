@@ -1,0 +1,437 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ke",
+				"keyword"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"sc",
+				"screenshot1"
+			],
+			[
+				"cap",
+				"cap"
+			],
+			[
+				"ori",
+				"original_image"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"w",
+				"width\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C# Compile & Run/CSharpSingleFileBuild.sublime-build",
+					""
+				],
+				[
+					"Packages/C# Compile & Run/CSharpSingleFileBuild.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C# Compile & Run/CSharpSingleFileBuild.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"set synta",
+				"Set Syntax: SCSS"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 422.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/sotsuken/config.rb",
+		"/Applications/MAMP/htdocs/sotsuken/test.scss",
+		"/Applications/MAMP/htdocs/sotsuken/question.dat",
+		"/Applications/MAMP/htdocs/sotsuken/music_list.xml",
+		"/Applications/MAMP/htdocs/sotsuken/style.css",
+		"/Applications/MAMP/htdocs/sotsuken/style.scss",
+		"/Users/hide/Library/Application Support/Sublime Text 3/Packages/User/pre_var_dump.sublime-snippet",
+		"/Applications/MAMP/htdocs/sotsuken/submit.php",
+		"/Applications/MAMP/htdocs/sotsuken/question.xml",
+		"/Users/hide/Desktop/ブック1.xml",
+		"/Applications/MAMP/htdocs/music/post.php",
+		"/Applications/MAMP/htdocs/music/j.php",
+		"/Applications/MAMP/bin/phpMyAdmin/config.inc.php",
+		"/Applications/MAMP/htdocs/music/test.php",
+		"/Applications/MAMP/htdocs/music/index.php",
+		"/Users/hide/Python/E5-15齋藤-課題03-5.py",
+		"/Users/hide/Desktop/id_rsa",
+		"/Applications/MAMP/htdocs/music/hide.php",
+		"/Applications/MAMP/htdocs/music/search.php",
+		"/Users/hide/Desktop/user.txt",
+		"/Users/hide/Python/02.py",
+		"/Users/hide/Python/03-2.py",
+		"/Users/hide/Python/03-1.py",
+		"/Users/hide/Python/04-nyuton.py",
+		"/Users/hide/Python/04-nibun.py",
+		"/Users/hide/Python/03-5.py",
+		"/Users/hide/Python/03-4.py",
+		"/Users/hide/Python/03-3.py",
+		"/Users/hide/Python/03.py",
+		"/Users/hide/Python/03mat.py",
+		"/Users/hide/Python/03 2.py",
+		"/Users/hide/.ssh/id_rsa",
+		"/Users/hide/Python/04.py",
+		"/Applications/MAMP/htdocs/index.html",
+		"/Applications/MAMP/conf/apache/httpd.conf",
+		"/Applications/MAMP/htdocs/index.php",
+		"/Users/hide/Documents/Arduino/libraries/red7SEG-0.92/red7SEG.h",
+		"/Users/hide/Documents/Arduino/libraries/redDML-0.90/redDML.h",
+		"/Users/hide/Python Program/test1.py",
+		"/Users/hide/Python Program/LineTrace-camera.py",
+		"/Users/hide/Desktop/test.py",
+		"/Users/hide/Desktop/gpio-test5.py",
+		"/Users/hide/Desktop/button.php",
+		"/private/var/folders/yl/bb8_gkm51g30rn8rn8g_bqc80000gn/T/8927502f-681b-4816-8321-2159c8f950ae/home/e5117/karaxrix/second.c",
+		"/Volumes/Home Directory/LineTrace/LineTrace3.py",
+		"/private/var/folders/yl/bb8_gkm51g30rn8rn8g_bqc80000gn/T/8927502f-681b-4816-8321-2159c8f950ae/home/e5117/karaxrix/ondo.c",
+		"/Users/hide/Desktop/second.c",
+		"/private/var/folders/yl/bb8_gkm51g30rn8rn8g_bqc80000gn/T/second.c",
+		"/Volumes/sun.kochi-ct.ac.jp/karaxrix/second.c",
+		"/private/var/folders/yl/bb8_gkm51g30rn8rn8g_bqc80000gn/T/ondo.c",
+		"/Volumes/Home Directory/LineTrace/LineTrace.py",
+		"/Volumes/Home Directory/LineTrace/LineTrace-camera3.py",
+		"/Volumes/Home Directory/LineTrace/LineTrace-camera2.py",
+		"/Volumes/Home Directory/LineTrace/test.py",
+		"/Volumes/Home Directory/LineTrace/gpio-test6.py",
+		"/Volumes/Home Directory/LineTrace/LineTrace-corner.py",
+		"/Volumes/Home Directory/LineTrace/LineTrace-camera.py",
+		"/Users/hide/Desktop/LineTrace.py",
+		"/Users/hide/Desktop/LineTrace-camera.py",
+		"/Users/hide/Python Program/data.txt",
+		"/Users/hide/Python Program/icocet.py",
+		"/private/var/folders/yl/bb8_gkm51g30rn8rn8g_bqc80000gn/T/8927502f-681b-4816-8321-2159c8f950ae/home/e5117/karaxrix/first.c",
+		"/Users/hide/Python Program/tesserocr-icocet.py",
+		"/Users/hide/Python Program/textshow.py",
+		"/Users/hide/Python Program/ocrtest.py",
+		"/Users/hide/Python Program/LineTrace.py",
+		"/Users/hide/Python Program/iro.py",
+		"/Users/hide/Python Program/test.py",
+		"/Volumes/Home Directory/LineTrace/picamera.py",
+		"/Users/hide/Python Program/test2.py",
+		"/Users/hide/Python Program/linetest.py",
+		"/Volumes/Home Directory/LineTrace/PiTest.py",
+		"/Volumes/Home Directory/LineTrace/test2.py",
+		"/Volumes/Home Directory/LineTrace/testpicamera.py",
+		"/Volumes/Home Directory/LineTrace/gpio-test5.py",
+		"/Users/hide/Desktop/Swift/Drawing/Podfile",
+		"/Volumes/pi/karacrix32F/sys/sweb/htdocs/led.php",
+		"/private/var/folders/yl/bb8_gkm51g30rn8rn8g_bqc80000gn/T/aed95541-d5fd-4ed5-8e60-fba4b2a69d1a/home/e5117/html/inputnum.html",
+		"/private/var/folders/yl/bb8_gkm51g30rn8rn8g_bqc80000gn/T/aed95541-d5fd-4ed5-8e60-fba4b2a69d1a/home/e5117/html/outputnum.php",
+		"/private/var/folders/yl/bb8_gkm51g30rn8rn8g_bqc80000gn/T/aed95541-d5fd-4ed5-8e60-fba4b2a69d1a/home/e5117/html/kadai4.html",
+		"/private/var/folders/yl/bb8_gkm51g30rn8rn8g_bqc80000gn/T/aed95541-d5fd-4ed5-8e60-fba4b2a69d1a/home/e5117/kadai4.php",
+		"/private/var/folders/yl/bb8_gkm51g30rn8rn8g_bqc80000gn/T/aed95541-d5fd-4ed5-8e60-fba4b2a69d1a/home/e5117/html/kadai3.php",
+		"/private/var/folders/yl/bb8_gkm51g30rn8rn8g_bqc80000gn/T/aed95541-d5fd-4ed5-8e60-fba4b2a69d1a/home/e5117/html/kadai2.html",
+		"/Users/hide/Desktop/kadai2.html",
+		"/Users/hide/Desktop/kadai3.php",
+		"/Users/hide/Desktop/kadai3.html",
+		"/Users/hide/Desktop/kadai2.php",
+		"/Users/hide/Desktop/kadai1.php",
+		"/Users/hide/Desktop/kadai1.html",
+		"/Volumes/Home Directory/opencv.py",
+		"/Users/hide/*",
+		"/Users/hide/test.py",
+		"/Users/hide/Library/Application Support/Sublime Text 3/Packages/User/python3.sublime-build",
+		"/Users/hide/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/hide/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/private/var/folders/yl/bb8_gkm51g30rn8rn8g_bqc80000gn/T/48525291-6a5a-4d1e-8609-83b644d02693/home/saito/space/sample3.c",
+		"/private/var/folders/yl/bb8_gkm51g30rn8rn8g_bqc80000gn/T/48525291-6a5a-4d1e-8609-83b644d02693/home/saito/karacrix/karacri_pi.c",
+		"/private/var/folders/yl/bb8_gkm51g30rn8rn8g_bqc80000gn/T/92fa51a9-3a25-4c84-b69e-17b27d5a9448/home/saito/karacrix/led1.c",
+		"/Users/hide/Csharp/test.cs",
+		"/Users/hide/Desktop/seminar/index.html",
+		"/Users/hide/Desktop/seminar/shower/themes/ribbon/styles/style.css",
+		"/Users/hide/Desktop/seminar/shower/themes/ribbon/styles/screen.css",
+		"/Users/hide/Desktop/seminar/blue0040.png",
+		"/Users/hide/Desktop/セミナープレゼン/index.html",
+		"/Users/hide/Desktop/セミナープレゼン/shower/themes/ribbon/styles/screen.css",
+		"/Users/hide/Desktop/セミナープレゼン/shower/themes/ribbon/styles/style.css",
+		"/Users/hide/Desktop/セミナープレゼン/shower/themes/ribbon/index.html",
+		"/Users/hide/Desktop/deck.js-latest/themes/style/swiss.scss",
+		"/Users/hide/Desktop/セミナープレゼン/License.md",
+		"/Users/hide/Desktop/deck.js-latest/boilerplate.html",
+		"/Users/hide/Desktop/deck.js-latest/themes/style/style.css",
+		"/Users/hide/Desktop/deck.js-latest/style/style.css",
+		"/Users/hide/Desktop/deck.js-latest/style.css",
+		"/Users/hide/Desktop/deck.js-latest/boilerplate 2.html",
+		"/Users/hide/Desktop/shower/shower/themes/bright/styles/screen.css",
+		"/Users/hide/Desktop/shower/index.html",
+		"/Users/hide/Desktop/shower/shower/themes/ribbon/styles/style.css",
+		"/Users/hide/Desktop/shower/shower/themes/bright/styles/style.css",
+		"/Users/hide/school-record-manager/app/views/admin/subjects/index.html.erb",
+		"/Users/hide/school-record-manager/app/views/users/sessions/new.html.erb",
+		"/Users/hide/school-record-manager/app/views/admin/subjects/show.html.erb",
+		"/Users/hide/school-record-manager/app/views/admin/subjects/edit.html.erb",
+		"/Users/hide/school-record-manager/app/views/admin/klasses/edit.html.erb",
+		"/Users/hide/school-record-manager/app/views/admin/klasses/index.html.erb",
+		"/Users/hide/school-record-manager/app/views/admin/schools/edit.html.erb",
+		"/Users/hide/school-record-manager/app/views/records/registration.html.erb",
+		"/Users/hide/school-record-manager/app/views/admin/subjects/new.html.erb",
+		"/Users/hide/school-record-manager/app/views/admin/subjects/_form.html.erb"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"1\t男性ボーカル\n2\t女性ボーカル\n3\tJ-POP\n4\tロック\n5\tエレクトロ\n6\tハードコア\n7\tバラード\n8\t低音が心地よい\n9\t疾走感がある\n",
+			"}\n",
+			"え",
+			"3600",
+			"1440",
+			"e5103",
+			"e5103\ne5104\ne5105\ne5106\ne5107\ne5108\ne5109\ne5110\ne5111\ne5112\ne5113\ne5115\ne5116\ne5117\ne5118\ne5120\ne5122\ne5123\ne5124\ne5126\nm5128\ne5128\ne5130\ne5131\ne5133\ne5134\ne5036\ne5135\ne5138\ne5042\ne5140\nlkhagvadorj",
+			"@gm.kochi-ct.jp",
+			"plt",
+			"int",
+			"int(",
+			"int",
+			">\n",
+			"line_Bottom",
+			"line_Center",
+			"line_Top",
+			"time",
+			"line_Right",
+			"line_Center",
+			"line_Left",
+			"enlarge",
+			"img",
+			"stdin",
+			"a",
+			"text1",
+			"text",
+			"phrase",
+			"frase",
+			"mask",
+			"img",
+			"original_image",
+			"()",
+			"\t\"",
+			"level",
+			"50000",
+			"}",
+			"ol",
+			">\n",
+			"%>\n",
+			"control",
+			"field",
+			"=\"\">",
+			">\n",
+			"Invalid",
+			"invalid",
+			";\n",
+			"lass=\"pure-menu-link",
+			"ure-menu-item",
+			"forgot your",
+			"HLfFlJR2tuc",
+			"{\"windows\":[],\"selectedWindow\":0,\"_closedWindows\":[{\"tabs\":"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.csslint_result_view":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 130.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Compass/Compass.sublime-build",
+	"project": "config.rb",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"applicationhtml",
+				"app/views/layouts/application.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 102.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

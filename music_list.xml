@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<music>
+  <song id="1">
+    <title>風の日</title>
+    <artist>ELLEGARDEN</artist>
+    <data>男性ボーカル</data>
+    <data>テンション上がる</data>
+    <data>ロック</data>
+  </song>
+  <song id="2">
+    <title>supernova</title>
+    <artist>ELLEGARDEN</artist>
+    <data>男性ボーカル</data>
+    <data>ロック</data>
+    <data>疾走感がある</data>
+    <data>テンション上がる</data>
+    <data>のれる</data>
+  </song>
+  <song id="3">
+    <title>名前のない怪物</title>
+    <artist>EGOIST</artist>
+    <data>女性ボーカル</data>
+    <data>ロック</data>
+    <data>主題歌</data>
+  </song>
+  <song id="4">
+    <title>チェリー</title>
+    <artist>スピッツ</artist>
+    <data>男性ボーカル</data>
+    <data>邦楽</data>
+    <data>J-POP</data>
+    <data>なつかしい</data>
+  </song>
+  <song id="5">
+    <title>Hey Brother</title>
+    <artist>Avicii</artist>
+    <data>疾走感がある</data>
+    <data>明るい</data>
+    <data>のれる</data>
+    <data>EDM</data>
+  </song>
+  <song id="6">
+    <title>vivi</title>
+    <artist>米津玄師</artist>6
+  </song>
+  <song id="7">
+    <title>花雷</title>
+    <artist>style-3!</artist>
+    <data>テンション上がる</data>
+    <data>明るい</data>
+    <data>ロック</data>
+    <data>疾走感がある</data>
+    <data>インスト</data>
+  </song>
+  <song id="8">
+    <title>CHE.R.RY</title>
+    <artist>YUI</artist>
+    <data>定番ソング</data>
+    <data>声が良い</data>
+    <data>女性ボーカル</data>
+    <data>カラオケで盛り上がる</data>
+    <data>シンガーソングライター</data>
+    <data>恋愛ソング</data>
+    <data>定番ソング</data>
+  </song>
+  <song id="9">
+    <title>TheFlare</title>
+    <artist>TheHIATUS</artist>
+    <data>ロック</data>
+    <data>かっこいい</data>
+    <data>テンション上がる</data>
+    <data>男性ボーカル</data>
+    <data>エモーショナル</data>
+  </song>
+  <song id="10">
+    <title>エンドレス</title>
+    <artist>サカナクション</artist>
+    <data>暗い</data>
+    <data>エレクトロ</data>
+    <data>くせになる</data>
+    <data>男性ボーカル</data>
+    <data>低音が心地よい</data>
+    <data>リズミカル</data>
+  </song>
+  <song id="11">
+    <title>KARATE</title>
+    <artist>BABYMETAL</artist>
+    <data>かっこいい</data>
+    <data>ドンシャリ</data>
+    <data>重低音</data>
+    <data>女性ボーカル</data>
+    <data>J-POP</data>
+    <data>ヘヴィメタル</data>
+    <data>演奏すごい</data>
+    <data>アイドル</data>
+    <data>有名</data>
+  </song>
+  <song id="12">
+    <title>奏</title>
+    <artist>スキマスイッチ</artist>
+    <data>声が良い</data>
+    <data>暗い</data>
+    <data>男性ボーカル</data>
+    <data>落ち着く</data>
+    <data>ピアノ伴奏</data>
+    <data>泣ける</data>
+    <data>定番ソング</data>
+    <data>バラード</data>
+  </song>
+  <song id="13">
+    <title>wherever you are</title>
+    <artist>ONE OK ROCK</artist>
+    <data>有名</data>
+    <data>カラオケで盛り上がる</data>
+    <data>泣ける</data>
+    <data>バラード</data>
+    <data>恋愛ソング</data>
+    <data>ロック</data>
+    <data>定番ソング</data>
+    <data>邦楽</data>
+  </song>
+  <song id="14">
+    <title>白い恋人達</title>
+    <artist>桑田佳祐</artist>
+    <data>声が良い</data>
+    <data>男性ボーカル</data>
+    <data>バラード</data>
+    <data>恋愛ソング</data>
+    <data>カラオケで盛り上がる</data>
+    <data>泣ける</data>
+    <data>定番ソング</data>
+  </song>
+  <song id="15">
+    <title>マイケル・ジャクソン</title>
+    <artist>Beat It</artist>
+    <data>男性ボーカル</data>
+    <data>かっこいい</data>
+    <data>有名</data>
+    <data>リズミカル</data>
+    <data>くせになる</data>
+    <data>洋楽</data>
+    <data>キャッチー</data>
+    <data>世界的ヒット</data>
+  </song>
+  <song id="16">
+    <title>Voice</title>
+    <artist>androp</artist>
+    <data>明るい</data>
+    <data>男性ボーカル</data>
+    <data>ロック</data>
+    <data>カラオケで盛り上がる</data>
+    <data>のれる</data>
+    <data>主題歌</data>
+  </song>
+  <song id="17">
+    <title>才能にジャブ</title>
+    <artist>ニホンハツ</artist>
+    <data>かっこいい</data>
+    <data>ロックンロール</data>
+  </song>
+  <song id="18">
+    <title>We Are The Champions</title>
+    <artist>Queen</artist>
+    <data>声が良い</data>
+  </song>
+  <song id="19">
+    <title>Boohoo</title>
+    <artist>androp</artist>
+  </song>
+  <song id="20">
+    <title>新宝島</title>
+    <artist>サカナクション</artist>
+    <data>ロック</data>
+    <data>明るい</data>
+    <data>有名</data>
+    <data>男性ボーカル</data>
+    <data>くせになる</data>
+    <data>カラオケで盛り上がる</data>
+    <data>のれる</data>
+    <data>テンション上がる</data>
+    <data>キャッチー</data>
+    <data>リズミカル</data>
+    <data>踊れる</data>
+  </song>
+  <song id="21">
+    <title>Crush</title>
+    <artist>Polyphia</artist>
+    <data>かっこいい</data>
+    <data>演奏すごい</data>
+    <data>洋楽</data>
+    <data>キャッチー</data>
+    <data>インスト</data>
+    <data>低音が心地よい</data>
+    <data>ギターソロが目立つ</data>
+  </song>
+  <song id="22">
+    <title>がたんごとん</title>
+    <artist>SHISHAMO</artist>
+    <data>邦楽</data>
+    <data>ロック</data>
+    <data>恋愛ソング</data>
+    <data>落ち着く</data>
+    <data>女性ボーカル</data>
+    <data>サブカル</data>
+    <data>スローテンポ</data>
+    <data>スリーピース</data>
+  </song>
+  <song id="23">
+    <title>さよならアイデンティティー</title>
+    <artist>yonige</artist>
+    <data>恋愛ソング</data>
+    <data>スリーピース</data>
+    <data>ロック</data>
+    <data>エモーショナル</data>
+    <data>女性ボーカル</data>
+    <data>声が良い</data>
+    <data>ガールズバンド</data>
+    <data>アイデンティティ</data>
+    <data>歌詞が良い</data>
+  </song>
+  <song id="24">
+    <title>らいおんハート</title>
+    <artist>SMAP</artist>
+    <data>泣ける</data>
+    <data>J-POP</data>
+    <data>男性ボーカル</data>
+    <data>恋愛ソング</data>
+    <data>主題歌</data>
+    <data>定番ソング</data>
+    <data>バラード</data>
+    <data>邦楽</data>
+    <data>有名</data>
+    <data>ジャニーズ</data>
+    <data>ミリオンヒット</data>
+  </song>
+  <song id="25">
+    <title>ワタリドリ</title>
+    <artist>[Alexandros]</artist>
+    <data>声が良い</data>
+    <data>くせになる</data>
+    <data>テンション上がる</data>
+    <data>邦楽</data>
+    <data>疾走感がある</data>
+    <data>男性ボーカル</data>
+    <data>カラオケで盛り上がる</data>
+    <data>ロック</data>
+    <data>かっこいい</data>
+    <data>キャッチー</data>
+  </song>
+  <song id="26">
+    <title>私以外私じゃないの</title>
+    <artist>ゲスの極み乙女。</artist>
+    <data>ロック</data>
+    <data>J-POP</data>
+    <data>男性ボーカル</data>
+    <data>サブカル</data>
+    <data>テンション上がる</data>
+    <data>カラオケで盛り上がる</data>
+    <data>声が良い</data>
+    <data>くせになる</data>
+    <data>演奏すごい</data>
+    <data>のれる</data>
+    <data>ヒット曲</data>
+  </song>
+</music>
