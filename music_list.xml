@@ -93,7 +93,7 @@
     <data>ヘヴィメタル</data>
     <data>演奏すごい</data>
     <data>アイドル</data>
-    <data>有名</data>
+    <data>ヒット曲</data>
   </song>
   <song id="12">
     <title>奏</title>
@@ -110,7 +110,7 @@
   <song id="13">
     <title>wherever you are</title>
     <artist>ONE OK ROCK</artist>
-    <data>有名</data>
+    <data>ヒット曲</data>
     <data>カラオケで盛り上がる</data>
     <data>泣ける</data>
     <data>バラード</data>
@@ -129,13 +129,14 @@
     <data>カラオケで盛り上がる</data>
     <data>泣ける</data>
     <data>定番ソング</data>
+    <data>ヒット曲</data>
   </song>
   <song id="15">
     <title>マイケル・ジャクソン</title>
     <artist>Beat It</artist>
     <data>男性ボーカル</data>
     <data>かっこいい</data>
-    <data>有名</data>
+    <data>ヒット曲</data>
     <data>リズミカル</data>
     <data>くせになる</data>
     <data>洋楽</data>
@@ -172,7 +173,7 @@
     <artist>サカナクション</artist>
     <data>ロック</data>
     <data>明るい</data>
-    <data>有名</data>
+    <data>ヒット曲</data>
     <data>男性ボーカル</data>
     <data>くせになる</data>
     <data>カラオケで盛り上がる</data>
@@ -229,7 +230,7 @@
     <data>定番ソング</data>
     <data>バラード</data>
     <data>邦楽</data>
-    <data>有名</data>
+    <data>ヒット曲</data>
     <data>ジャニーズ</data>
     <data>ミリオンヒット</data>
   </song>

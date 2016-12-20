@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>卒検</title>
+  <title>卒研</title>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
