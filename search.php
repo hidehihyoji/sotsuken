@@ -48,8 +48,9 @@ for($i=0;$i<10;$i++) {
 </form>
 
 <a class="md-btn" href="https://sotsuken-music-app.herokuapp.com">TOP</a>
-</div>
 
+</div>
+</div>
 
 <script>
 var y_ans = [];

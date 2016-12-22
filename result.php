@@ -82,9 +82,9 @@ foreach($id as $key => $val){
 }
 
 ?>
+<a class="md-btn" href="https://sotsuken-music-app.herokuapp.com">TOP</a>
 
 </div>
-<a class="md-btn" href="https://sotsuken-music-app.herokuapp.com">TOP</a>
 </div>
 </body>
 </html>
