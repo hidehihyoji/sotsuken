@@ -11,7 +11,7 @@
 </head>
 <body>
 <div id="main">
-<div id="box">
+<div id="box2">
 <form id="register" action="register.php" method="post">
   <div>
   <input type="text" id="title" name="title" placeholder="曲名" class="bg-input" required>
