@@ -162,6 +162,8 @@ ul {
   margin-top: 60px;
 }
 #main #box form#register div input[type=submit] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
   color: #fff;
 }
 #main #box .button {

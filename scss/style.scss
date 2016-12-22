@@ -152,6 +152,7 @@
         div {
           margin-top: 60px;
           input[type=submit] {
+            @include appearance(none);
             color: #fff;
           }
         }
