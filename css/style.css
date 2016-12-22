@@ -87,7 +87,7 @@ ul {
   box-shadow: rgba(0, 0, 0, 0.2) 0 3px 3px, rgba(255, 255, 255, 0.7) 0 0 1px 1px inset;
 }
 #main #container {
-  width: 500px;
+  max-width: 500px;
   margin: 0 auto;
   padding: 40px;
   color: #fff;
@@ -98,6 +98,9 @@ ul {
   padding: 5px 30px;
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.3);
+}
+#main #container #header img {
+  width: 100%;
 }
 #main #container #header .data span {
   display: inline-block;
@@ -144,7 +147,7 @@ ul {
   right: 0;
   bottom: 0;
   left: 0;
-  width: 400px;
+  max-width: 400px;
   height: 280px;
   margin: auto;
   background-color: rgba(33, 33, 33, 0.8);

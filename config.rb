@@ -6,4 +6,3 @@ javascripts_dir = "js"
 output_style = :expanded
 line_comments = false
 Encoding.default_external = 'utf-8'
-sass_path = File.expand_path(sass_dir, project_path)
