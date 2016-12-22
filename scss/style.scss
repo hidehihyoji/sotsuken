@@ -16,6 +16,10 @@
     padding: 0;
   }
   
+  input {
+    @include appearance(none);
+
+  }
   #main {
     width: 100%;
     a {
@@ -152,7 +156,6 @@
         div {
           margin-top: 60px;
           input[type=submit] {
-            @include appearance(none);
             color: #fff;
           }
         }
