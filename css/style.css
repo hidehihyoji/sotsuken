@@ -87,6 +87,7 @@ ul {
   box-shadow: rgba(0, 0, 0, 0.2) 0 3px 3px, rgba(255, 255, 255, 0.7) 0 0 1px 1px inset;
 }
 #main #container {
+  max-width: 500px;
   margin: 0 auto;
   padding: 40px;
   color: #fff;
@@ -141,6 +142,7 @@ ul {
   margin-bottom: 30px;
 }
 #main #box {
+  max-width: 400px;
   position: absolute;
   top: 0;
   right: 0;
@@ -208,21 +210,4 @@ ul#ui-id-2 li {
 ul#ui-id-1 li :hover,
 ul#ui-id-2 li :hover {
   background: #ccc;
-}
-
-@media screen and (min-width: 481px) {
-  #main #container {
-    width: 500px;
-  }
-  #main #box {
-    width: 400px;
-  }
-}
-@media screen and (max-width: 480px) {
-  #main #container {
-    width: 100%;
-  }
-  #main #box {
-    width: 100%;
-  }
 }
