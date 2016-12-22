@@ -9,7 +9,7 @@
 </head>
 <body>
 <div id="main">
-<div id="box">
+<div id="box2">
 <form action="result.php" name="answer" method="post" accept-charset="utf-8">
 
 <?php
@@ -46,6 +46,8 @@ for($i=0;$i<10;$i++) {
 <input name="no" type="hidden">
 
 </form>
+
+<a class="md-btn" href="https://sotsuken-music-app.herokuapp.com">TOP</a>
 </div>
 
 
@@ -86,6 +88,5 @@ $(function(){
 </script>
 
 
-</div>
 </body>
 </html>

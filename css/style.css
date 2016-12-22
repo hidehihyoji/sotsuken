@@ -146,7 +146,7 @@ input {
 #main #container .list {
   margin-bottom: 30px;
 }
-#main #box {
+#main #box1 {
   max-width: 400px;
   position: absolute;
   top: 0;
@@ -163,16 +163,33 @@ input {
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
-#main #box form#register div {
-  margin-top: 60px;
-}
-#main #box form#register div input[type=submit] {
-  color: #fff;
-}
-#main #box .button {
+#main #box1 .button {
   margin-top: 100px;
 }
-#main #box .question {
+#main #box2 {
+  max-width: 400px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 350px;
+  margin: auto;
+  background-color: rgba(33, 33, 33, 0.8);
+  -moz-box-shadow: #333 2px 2px 10px;
+  -webkit-box-shadow: #333 2px 2px 10px;
+  box-shadow: #333 2px 2px 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+#main #box2 form#register div {
+  margin-top: 60px;
+}
+#main #box2 form#register div input[type=submit] {
+  color: #fff;
+}
+#main #box2 .question {
   margin: 20px;
   padding: 10px;
   color: white;
@@ -180,7 +197,7 @@ input {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-#main #box .question div a {
+#main #box2 .question div a {
   display: block;
   margin-bottom: 10px;
   padding-left: 10px;

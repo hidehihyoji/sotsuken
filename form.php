@@ -41,8 +41,10 @@ $(function() {
   });
 });
 </script>
+<a class="md-btn" href="https://sotsuken-music-app.herokuapp.com">TOP</a>
 
 </div>
 </div>
+
 </body>
 </html>

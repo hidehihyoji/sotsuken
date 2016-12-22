@@ -85,7 +85,7 @@ else{
 }
 ?>
 </div>
-<a class="md-btn" href="http://localhost/sotsuken/">TOP</a>
+<a class="md-btn" href="https://sotsuken-music-app.herokuapp.com">TOP</a>
 </div>
 </div>
 </body>
