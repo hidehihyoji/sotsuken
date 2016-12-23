@@ -9,13 +9,15 @@
 </head>
 
 <body>
-  <div id="main">
-    <div id="box1">
-      <div class="button">
-        <p><a href="search.php" class="bg-btn">SEARCH</a></p>
-        <p><a href="form.php" class="bg-btn">REGISTER</a></p>
-      </div>
+
+<div id="main">
+  <div id="box1">
+    <div class="button">
+      <p><a href="search.php" class="bg-btn">SEARCH</a></p>
+      <p><a href="form.php" class="bg-btn">REGISTER</a></p>
     </div>
   </div>
+</div>
+
 </body>
 </html>

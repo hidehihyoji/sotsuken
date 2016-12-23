@@ -1,6 +1,6 @@
 <?php
 
-function youtube($title,$artist){
+function youtube($title, $artist) {
   $title = str_replace(" ", "+", $title);
   $artist = str_replace(" ", "+", $artist);
   $keyword = $title . "+" . $artist; 
@@ -9,19 +9,19 @@ function youtube($title,$artist){
   $json = file_get_contents($q_url);
   $arr = json_decode($json);
 
-  $id = $arr->items[0]->id->videoId; //videoId
+  $id = $arr -> items[0] -> id -> videoId; //videoId
 
   $v_url = "https://www.googleapis.com/youtube/v3/videos?id=".$id."&key=".$key."&fields=items(snippet(title),statistics,player)&part=snippet,statistics,player";
   $json = file_get_contents($v_url);
 
   $arr = json_decode($json);
 
-  $video = $arr->items[0];
-  $title = $video->snippet->title;
-  $embed = $video->player->embedHtml;
-  $viewCount = $video->statistics->viewCount;
-  $like = $video->statistics->likeCount;
-  $dislike = $video->statistics->dislikeCount;
+  $video = $arr -> items[0];
+  $title = $video -> snippet -> title;
+  $embed = $video -> player -> embedHtml;
+  $viewCount = $video -> statistics -> viewCount;
+  $like = $video -> statistics -> likeCount;
+  $dislike = $video -> statistics -> dislikeCount;
 
   echo $title;
   echo "<div class='video'>".$embed."</div>";
@@ -29,4 +29,5 @@ function youtube($title,$artist){
   echo "<span>good:".number_format($like)."</span> ";
   echo "<span>bad:".number_format($dislike)."</span>";
 }
+
 ?>

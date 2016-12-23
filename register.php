@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
 <div id="main">
 <div id="container">
 
@@ -28,7 +29,7 @@ $artist_img = $html->find('img')[mt_rand(0,20)] ->src;
 <div id="header">
 
 <p><?=$title?> / <?=$artist?></p>
-<img src="<?=$artist_img?>" alt="<?=$artist?>" >
+<img src="<?=$artist_img?>" alt="<?=$artist?>">
 <p><a href="http://image.search.yahoo.co.jp/search?p=<?=$artist?>">[<?=$artist?>]の検索結果 - Yahoo!検索（画像）</a></p>
 
 </div>
@@ -47,18 +48,19 @@ $artist_img = $html->find('img')[mt_rand(0,20)] ->src;
 
     ?>
 
-    <?php foreach($data as $key => $d):?>
+    <?php foreach($data as $key => $d): ?>
 
     <li>
       <input type="checkbox" id="checkbox<?=$key?>" class="checkbox" name="data[]" value="<?=$d?>">
       <label for="checkbox<?=$key?>"><?=$d?></label>
     </li>
 
-    <?php endforeach;?>
+    <?php endforeach; ?>
 
   </ul>
 
   <span></span>
+
   <input type="hidden" name="title" value="<?=$title?>">
   <input type="hidden" name="artist" value="<?=$artist?>">
   <input type="hidden" name="artist_img" value="<?=$artist_img?>">
@@ -79,5 +81,6 @@ $artist_img = $html->find('img')[mt_rand(0,20)] ->src;
 
 </div>
 </div>
+
 </body>
 </html>
