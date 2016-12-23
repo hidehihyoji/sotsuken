@@ -33,8 +33,8 @@ for($i=0;$i<10;$i++) {
 ?>
   <div id="que10" class="question">
     <p>Q<?=$i+1?>, <?=$que[$i]?>?</p>
-    <div><a class="quePush bg-btn" href="#" onClick="lyes('<?=$que[$i]?>');">はい</a></div>
-    <div><a class="quePush bg-btn" href="#" onClick="lno('<?=$que[$i]?>');">いいえ</a></div>
+    <div><a class="quePush bg-btn" href="#" onClick="y('<?=$que[$i]?>'); document.answer.submit();">はい</a></div>
+    <div><a class="quePush bg-btn" href="#" onClick="n('<?=$que[$i]?>'); document.answer.submit();">いいえ</a></div>
     <div><a class="quePush bg-btn" href="#" onClick="document.answer.submit();">わからない</a></div>
   </div>
 <?php
@@ -57,11 +57,13 @@ var y_ans = [];
 var n_ans = [];
 
 function y(ans){
+  $('form[name=answer] input[name=yes]').val(y_ans);
   y_ans.push(ans);
 
 }
 
 function n(ans){
+  $('form[name=answer] input[name=no]').val(n_ans);
   n_ans.push(ans);
 }
 
