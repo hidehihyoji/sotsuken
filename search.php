@@ -27,19 +27,15 @@ for($i=0;$i<10;$i++) {
     <div><a class="quePush bg-btn" href="#" onClick="y('<?=$que[$i]?>');">はい</a></div>
     <div><a class="quePush bg-btn" href="#" onClick="n('<?=$que[$i]?>');">いいえ</a></div>
     <div><a class="quePush bg-btn" href="#">わからない</a></div>
-    <div><a class="quePush bg-btn" href="#" onClick="lyes('<?=$que[$i]?>');">はい</a></div>
-
   </div>
 <?php
   }elseif($i==9){
 ?>
   <div id="que10" class="question">
     <p>Q<?=$i+1?>, <?=$que[$i]?>?</p>
-    <div><a class="quePush bg-btn" href="#" onClick="y('<?=$que[$i]?>');">はい</a></div>
-    <div><a class="quePush bg-btn" href="#" onClick="n('<?=$que[$i]?>');">いいえ</a></div>
-    <div><a class="quePush bg-btn" href="#">わからない</a></div>
-
     <div><a class="quePush bg-btn" href="#" onClick="lyes('<?=$que[$i]?>');">はい</a></div>
+    <div><a class="quePush bg-btn" href="#" onClick="lno('<?=$que[$i]?>');">いいえ</a></div>
+    <div><a class="quePush bg-btn" href="#" onClick="document.answer.submit();">わからない</a></div>
   </div>
 <?php
   }
@@ -62,22 +58,23 @@ var n_ans = [];
 
 function y(ans){
   y_ans.push(ans);
-  alert("a");
 
 }
 
 function n(ans){
   n_ans.push(ans);
-  $('form[name=answer] input[name=no]').val(n_ans);
 }
 
 function lyes(ans){
   y_ans.push(ans);
   $('form[name=answer] input[name=yes]').val(y_ans);
-  alert(y_ans);
-
   document.answer.submit();
+}
 
+function lno(ans){
+  y_ans.push(ans);
+  $('form[name=answer] input[name=no]').val(n_ans);
+  document.answer.submit();
 }
 </script>
 
