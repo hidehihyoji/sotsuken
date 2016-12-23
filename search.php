@@ -57,26 +57,13 @@ var y_ans = [];
 var n_ans = [];
 
 function y(ans){
-  $('form[name=answer] input[name=yes]').val(y_ans);
   y_ans.push(ans);
-
+  $('form[name=answer] input[name=yes]').val(y_ans);
 }
 
 function n(ans){
-  $('form[name=answer] input[name=no]').val(n_ans);
   n_ans.push(ans);
-}
-
-function lyes(ans){
-  y_ans.push(ans);
-  $('form[name=answer] input[name=yes]').val(y_ans);
-  document.answer.submit();
-}
-
-function lno(ans){
-  y_ans.push(ans);
   $('form[name=answer] input[name=no]').val(n_ans);
-  document.answer.submit();
 }
 </script>
 
