@@ -24,9 +24,11 @@ for($i=0;$i<10;$i++) {
 ?>
   <div id="que<?=$i+1?>" class="question">
     <p>Q<?=$i+1?>, <?=$que[$i]?>?</p>
-    <div><a class="quePush bg-btn" href="#" onClick="yes('<?=$que[$i]?>'); document.answer.submit();">はい</a></div>
+    <div><a class="quePush bg-btn" href="#" onClick="yes('<?=$que[$i]?>');">はい</a></div>
     <div><a class="quePush bg-btn" href="#" onClick="no('<?=$que[$i]?>');">いいえ</a></div>
     <div><a class="quePush bg-btn" href="#">わからない</a></div>
+    <div><a class="quePush bg-btn" href="#" onClick="lyes('<?=$que[$i]?>');">はい</a></div>
+
   </div>
 <?php
   }elseif($i==9){
