@@ -59,11 +59,10 @@ for($i=0;$i<10;$i++) {
 var y_ans = [];
 var n_ans = [];
 
-function a(){
-  alert("a");
-}
 function yes(ans){
   y_ans.push(ans);
+  $('form[name=answer] input[name=no]').val(n_ans);
+  
 
 }
 
