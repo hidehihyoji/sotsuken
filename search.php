@@ -64,6 +64,8 @@ function a(){
 }
 function yes(ans){
   y_ans.push(ans);
+  $('form[name=answer] input[name=yes]').val(y_ans);
+  
 }
 
 function no(ans){
