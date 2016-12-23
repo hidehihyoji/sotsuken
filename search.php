@@ -33,10 +33,10 @@ for($i=0;$i<10;$i++) {
 ?>
     <div id="que10" class="question">
     <p>Q<?=$i+1?>, <?=$que[$i]?>?</p>
-    <div><a class="quePush bg-btn" href="#" onClick="yes('<?=$que[$i]?>'); document.answer.submit();">はい</a></div>
-    <div><a class="quePush bg-btn" href="#" onClick="no('<?=$que[$i]?>'); document.answer.submit();">いいえ</a></div>
-    <div><a class="quePush bg-btn" href="#" onClick="document.answer.submit();">わからない</a></div>
-    </div>    
+    <div><a class="quePush bg-btn" href="#" onClick="yes('<?=$que[$i]?>'); document.answer.submit();"　onTouchStart="document.answer.submit();>はい</a></div>
+    <div><a class="quePush bg-btn" href="#" onClick="no('<?=$que[$i]?>'); document.answer.submit();"　onTouchStart="document.answer.submit();>いいえ</a></div>
+    <div><a class="quePush bg-btn" href="#" onClick="document.answer.submit();"　onTouchStart="document.answer.submit();">わからない</a></div>
+    </div>
 <?php
   }
 }
