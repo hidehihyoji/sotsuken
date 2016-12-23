@@ -28,6 +28,7 @@ for($i=0;$i<10;$i++) {
     <div><a class="quePush bg-btn" href="#" onClick="no('<?=$que[$i]?>');">いいえ</a></div>
     <div><a class="quePush bg-btn" href="#">わからない</a></div>
     <div><a class="quePush bg-btn" href="#" onClick="lyes('<?=$que[$i]?>');">はい</a></div>
+    <div><a class="quePush bg-btn" href="#" onClick="yes('<?=$que[$i]?>'); document.answer.submit();">はい</a></div>
 
   </div>
 <?php
