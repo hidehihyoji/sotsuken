@@ -24,12 +24,10 @@ for($i=0;$i<10;$i++) {
 ?>
   <div id="que<?=$i+1?>" class="question">
     <p>Q<?=$i+1?>, <?=$que[$i]?>?</p>
-    <div><a class="quePush bg-btn" href="#" onClick="yes('<?=$que[$i]?>');">はい</a></div>
-    <div><a class="quePush bg-btn" href="#" onClick="no('<?=$que[$i]?>');">いいえ</a></div>
+    <div><a class="quePush bg-btn" href="#" onClick="y('<?=$que[$i]?>');">はい</a></div>
+    <div><a class="quePush bg-btn" href="#" onClick="n('<?=$que[$i]?>');">いいえ</a></div>
     <div><a class="quePush bg-btn" href="#">わからない</a></div>
     <div><a class="quePush bg-btn" href="#" onClick="lyes('<?=$que[$i]?>');">はい</a></div>
-    <button onclick="yes('<?=$que[$i]?>');">aa</button>
-    <button onclick="lyes('<?=$que[$i]?>');">aa</button>
 
   </div>
 <?php
@@ -37,8 +35,8 @@ for($i=0;$i<10;$i++) {
 ?>
   <div id="que10" class="question">
     <p>Q<?=$i+1?>, <?=$que[$i]?>?</p>
-    <div><a class="quePush bg-btn" href="#" onClick="yes('<?=$que[$i]?>');">はい</a></div>
-    <div><a class="quePush bg-btn" href="#" onClick="no('<?=$que[$i]?>');">いいえ</a></div>
+    <div><a class="quePush bg-btn" href="#" onClick="y('<?=$que[$i]?>');">はい</a></div>
+    <div><a class="quePush bg-btn" href="#" onClick="n('<?=$que[$i]?>');">いいえ</a></div>
     <div><a class="quePush bg-btn" href="#">わからない</a></div>
 
     <div><a class="quePush bg-btn" href="#" onClick="lyes('<?=$que[$i]?>');">はい</a></div>
@@ -62,13 +60,13 @@ for($i=0;$i<10;$i++) {
 var y_ans = [];
 var n_ans = [];
 
-function yes(ans){
+function y(ans){
   y_ans.push(ans);
   alert("a");
 
 }
 
-function no(ans){
+function n(ans){
   n_ans.push(ans);
   $('form[name=answer] input[name=no]').val(n_ans);
 }
