@@ -24,7 +24,7 @@ function youtube($title,$artist){
   $dislike = $video->statistics->dislikeCount;
 
   echo $title;
-  echo $embed;
+  echo "<div class='video'>".$embed."</div>";
   echo "<span>".number_format($viewCount)."views</span> ";
   echo "<span>good:".number_format($like)."</span> ";
   echo "<span>bad:".number_format($dislike)."</span>";

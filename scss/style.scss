@@ -6,7 +6,7 @@
   }
   
   body {
-    background-image: url('https://www.pakutaso.com/shared/img/thumb/P1030538_EDIT_TP_V.jpg');
+    background-image: url('https://raw.githubusercontent.com/hidehihyoji/sotsuken/master/img/main_background.jpg');
     //background-image: url('/sotsuken/img/main_background.jpg');
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -18,8 +18,8 @@
   
   input {
     @include appearance(none);
-
   }
+  
   #main {
     width: 100%;
     a {
@@ -138,6 +138,18 @@
       }
       .list {
         margin-bottom: 30px;
+        .video {
+          position: relative;
+          padding-bottom: 56.25%;
+          padding-top: 30px;
+          iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          }
+        }
       }
     }
     #box1 {
