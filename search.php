@@ -28,6 +28,8 @@ for($i=0;$i<10;$i++) {
     <div><a class="quePush bg-btn" href="#" onClick="no('<?=$que[$i]?>');">いいえ</a></div>
     <div><a class="quePush bg-btn" href="#">わからない</a></div>
     <div><a class="quePush bg-btn" href="#" onClick="lyes('<?=$que[$i]?>');">はい</a></div>
+    <button onclick="yes('<?=$que[$i]?>');">aa</button>
+    <button onclick="lyes('<?=$que[$i]?>');">aa</button>
 
   </div>
 <?php
@@ -74,6 +76,8 @@ function no(ans){
 function lyes(ans){
   y_ans.push(ans);
   $('form[name=answer] input[name=yes]').val(y_ans);
+  alert(y_ans);
+
   document.answer.submit();
 
 }
