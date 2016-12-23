@@ -148,8 +148,8 @@ input {
 }
 #main #container .list .video {
   position: relative;
-  padding-bottom: 56.25%;
   padding-top: 30px;
+  padding-bottom: 56.25%;
 }
 #main #container .list .video iframe {
   position: absolute;
@@ -159,12 +159,12 @@ input {
   height: 100%;
 }
 #main #box1 {
-  max-width: 400px;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  max-width: 400px;
   height: 280px;
   margin: auto;
   background-color: rgba(33, 33, 33, 0.8);
@@ -179,12 +179,12 @@ input {
   margin-top: 100px;
 }
 #main #box2 {
-  max-width: 400px;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  max-width: 400px;
   height: 350px;
   margin: auto;
   background-color: rgba(33, 33, 33, 0.8);

@@ -1,232 +1,231 @@
-  @charset 'UTF-8';
-  @import 'compass';
-  * {
-    //font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font: normal 14px 'CI', Meiryo, 'Hiragino Kaku Gothic ProN', 'qMmpS Pro W3', 'Hiragino Kaku Gothic Pro', 'lr oSVbN', 'MS PGothic', sans-serif, Arial, Helvetica, Verdana;
+@charset 'UTF-8';
+@import 'compass';
+* {
+  //font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: normal 14px 'CI', Meiryo, 'Hiragino Kaku Gothic ProN', 'qMmpS Pro W3', 'Hiragino Kaku Gothic Pro', 'lr oSVbN', 'MS PGothic', sans-serif, Arial, Helvetica, Verdana;
+}
+
+body {
+  background-image: url('https://raw.githubusercontent.com/hidehihyoji/sotsuken/master/img/main_background.jpg');
+  //background-image: url('/sotsuken/img/main_background.jpg');
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+ul {
+  padding: 0;
+}
+
+input {
+  @include appearance(none);
+}
+
+#main {
+  width: 100%;
+  a {
+    color: #fff;
   }
-  
-  body {
-    background-image: url('https://raw.githubusercontent.com/hidehihyoji/sotsuken/master/img/main_background.jpg');
-    //background-image: url('/sotsuken/img/main_background.jpg');
-    background-attachment: fixed;
-    background-size: 100% 100%;
+  .bg-input {
+    display: block;
+    width: 70%;
+    margin: 20px auto 20px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
   }
-  
-  ul {
-    padding: 0;
+  .sm-input {
+    width: 30%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
   }
-  
-  input {
-    @include appearance(none);
-  }
-  
-  #main {
-    width: 100%;
-    a {
-      color: #fff;
+  .bg-btn {
+    display: table;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, .2);
+    @include box-shadow(rgba(black, .2) 0 3px 3px,
+    rgba(black, .7) 0 0 1px 1px inset);
+    &:hover {
+      @include box-shadow(rgba(black, .2) 0 3px 3px,
+      rgba(white, .7) 0 0 1px 1px inset);
     }
-    .bg-input {
-      display: block;
-      width: 70%;
-      margin: 20px auto 20px auto;
-      padding: 10px;
-      border: none;
+  }
+  .md-btn {
+    display: table;
+    width: 50%;
+    margin: 30px auto 0 auto;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, .2);
+    @include box-shadow(rgba(black, .2) 0 3px 3px,
+    rgba(black, .7) 0 0 1px 1px inset);
+    &:hover {
+      @include box-shadow(rgba(black, .2) 0 3px 3px,
+      rgba(white, .7) 0 0 1px 1px inset);
+    }
+  }
+  .sm-btn {
+    display: table;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, .2);
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 3px, rgba(0, 0, 0, .7) 0 0 1px 1px inset;
+    @include box-shadow(rgba(black, .2) 0 3px 3px,
+    rgba(black, .7) 0 0 1px 1px inset);
+    &:hover {
+      @include box-shadow(rgba(black, .2) 0 3px 3px,
+      rgba(white, .7) 0 0 1px 1px inset);
+    }
+  }
+  #container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgba(33, 33, 33, .8);
+    #header {
+      padding: 5px 30px;
       border-radius: 5px;
-    }
-    .sm-input {
-      width: 30%;
-      padding: 5px 10px;
-      border: none;
-      border-radius: 3px;
-    }
-    .bg-btn {
-      display: table;
-      width: 80%;
-      margin: 0 auto;
-      padding: 10px;
-      color: #fff;
-      border: none;
-      border-radius: 4px;
-      background-color: rgba(255, 255, 255, .2);
-      @include box-shadow(rgba(black, .2) 0 3px 3px,
-      rgba(black, .7) 0 0 1px 1px inset);
-      &:hover {
-        @include box-shadow(rgba(black, .2) 0 3px 3px,
-        rgba(white, .7) 0 0 1px 1px inset);
+      background: rgba(255, 255, 255, .3);
+      img {
+        width: 100%;
       }
-    }
-    .md-btn {
-      display: table;
-      width: 50%;
-      margin: 30px auto 0 auto;
-      padding: 10px;
-      color: #fff;
-      border: none;
-      border-radius: 4px;
-      background-color: rgba(255, 255, 255, .2);
-      @include box-shadow(rgba(black, .2) 0 3px 3px,
-      rgba(black, .7) 0 0 1px 1px inset);
-      &:hover {
-        @include box-shadow(rgba(black, .2) 0 3px 3px,
-        rgba(white, .7) 0 0 1px 1px inset);
-      }
-    }
-    .sm-btn {
-      display: table;
-      padding: 10px;
-      color: #fff;
-      border: none;
-      border-radius: 4px;
-      background-color: rgba(255, 255, 255, .2);
-      box-shadow: rgba(0, 0, 0, .2) 0 3px 3px, rgba(0, 0, 0, .7) 0 0 1px 1px inset;
-      @include box-shadow(rgba(black, .2) 0 3px 3px,
-      rgba(black, .7) 0 0 1px 1px inset);
-      &:hover {
-        @include box-shadow(rgba(black, .2) 0 3px 3px,
-        rgba(white, .7) 0 0 1px 1px inset);
-      }
-    }
-    #container {
-      max-width: 500px;
-      margin: 0 auto;
-      padding: 40px;
-      color: #fff;
-      border-radius: 10px;
-      background-color: rgba(33, 33, 33, .8);
-      $iconColor: #53b300;
-      #header {
-        padding: 5px 30px;
-        border-radius: 5px;
-        background: rgba(255, 255, 255, .3);
-        img {
-          width: 100%;
+      .data {
+        span {
+          display: inline-block;
+          margin: 3px;
+          padding: 3px;
+          border: 1px solid;
+          border-radius: 5px;
+          @include user-select(none);
         }
-        .data {
-          span {
-            display: inline-block;
-            margin: 3px;
-            padding: 3px;
+      }
+    }
+    .register {
+      @include user-select(none);
+      li {
+        display: inline-block;
+        margin-bottom: 15px;
+        list-style-type: none;
+        input.checkbox {
+          display: none;
+          + label {
+            padding: 5px;
+            white-space: nowrap;
             border: 1px solid;
             border-radius: 5px;
-            @include user-select(none);
           }
-        }
-      }
-      .register {
-        @include user-select(none);
-        li {
-          display: inline-block;
-          margin-bottom: 15px;
-          list-style-type: none;
-          input.checkbox {
-            display: none;
+          &:checked {
             + label {
-              padding: 5px;
-              white-space: nowrap;
-              border: 1px solid;
-              border-radius: 5px;
-            }
-            &:checked {
-              + label {
-                color: #000;
-                border: 1px solid #fff;
-                background: #fff;
-              }
+              color: #000;
+              border: 1px solid #fff;
+              background: #fff;
             }
           }
         }
       }
-      .list {
-        margin-bottom: 30px;
-        .video {
-          position: relative;
-          padding-bottom: 56.25%;
-          padding-top: 30px;
-          iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-          }
+    }
+    .list {
+      margin-bottom: 30px;
+      .video {
+        position: relative;
+        padding-top: 30px;
+        padding-bottom: 56.25%;
+        iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
         }
       }
-    }
-    #box1 {
-      max-width: 400px;
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      height: 280px;
-      margin: auto;
-      background-color: rgba(33, 33, 33, .8);
-      @include box-shadow(#333 2px 2px 10px);
-      @include border-radius(10px);
-      .button {
-        margin-top: 100px;
-      }
-    }
-    #box2 {
-      max-width: 400px;
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      height: 350px;
-      margin: auto;
-      background-color: rgba(33, 33, 33, .8);
-      @include box-shadow(#333 2px 2px 10px);
-      @include border-radius(10px);
-      form#register {
-        div {
-          margin-top: 60px;
-          input[type=submit] {
-            color: #fff;
-          }
-        }
-      }
-      .question {
-        margin: 20px;
-        padding: 10px;
-        color: white;
-        @include border-radius(5px);
-        div {
-          a {
-            display: block;
-            margin-bottom: 10px;
-            padding-left: 10px;
-            border: 1px solid;
-            @include border-radius(5px);
-          }
-        }
-      }
-    }
-    a {
-      margin: 0 auto;
-      text-align: center;
-      text-decoration: none;
-      color: #000;
-    }
-    #result {
-      background: #fff;
     }
   }
-  
-  .ui-helper-hidden-accessible {
-    display: none;
+  #box1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 400px;
+    height: 280px;
+    margin: auto;
+    background-color: rgba(33, 33, 33, .8);
+    @include box-shadow(#333 2px 2px 10px);
+    @include border-radius(10px);
+    .button {
+      margin-top: 100px;
+    }
   }
-  
-  ul#ui-id-1,
-  ul#ui-id-2 {
-    width: 100px;
+  #box2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 400px;
+    height: 350px;
+    margin: auto;
+    background-color: rgba(33, 33, 33, .8);
+    @include box-shadow(#333 2px 2px 10px);
+    @include border-radius(10px);
+    form#register {
+      div {
+        margin-top: 60px;
+        input[type=submit] {
+          color: #fff;
+        }
+      }
+    }
+    .question {
+      margin: 20px;
+      padding: 10px;
+      color: white;
+      @include border-radius(5px);
+      div {
+        a {
+          display: block;
+          margin-bottom: 10px;
+          padding-left: 10px;
+          border: 1px solid;
+          @include border-radius(5px);
+        }
+      }
+    }
+  }
+  a {
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+  }
+  #result {
     background: #fff;
-    li {
-      list-style-type: none;
-      :hover {
-        background: #ccc;
-      }
+  }
+}
+
+.ui-helper-hidden-accessible {
+  display: none;
+}
+
+ul#ui-id-1,
+ul#ui-id-2 {
+  width: 100px;
+  background: #fff;
+  li {
+    list-style-type: none;
+    :hover {
+      background: #ccc;
     }
   }
+}
